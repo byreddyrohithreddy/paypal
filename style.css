@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header
+{
+    position: fixed;
+    background-color: white;
+}
+nav
+{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding:20px;
+font-size: 16px;
+box-shadow:0px 2px 16px #999;
+    
+}
+
+.left-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    margin-left: 10%;
+}
+.right-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 15%;
+    margin-right: 12%;
+}
+.left-container a
+{
+    color: rgb(27, 26, 26);
+    text-decoration: none;
+    padding-left:10%;
+}
+.right-container button
+{
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 25px ;
+    border-width: 1px;
+    border-color: rgb(59, 78, 163);
+}
+.login{
+background-color: white;
+color: rgb(24, 42, 133);
+}
+.signup
+{
+    color: white;
+background-color: rgb(24, 42, 133);
+}
+.signup:hover{
+    background-color: rgb(37, 50, 199);
+}
+.login:hover
+{
+    border-color: rgb(37, 50, 199);
+    color: rgb(37, 50, 199);
+}
+.bar:hover{
+font-size: 18px;
+text-decoration: underline;
+text-decoration-thickness: 3px;
+text-underline-offset: 5px;
+}
+.paypal-img
+{
+ width: 40px;
+ height: 40px;
+}
+.first
+{
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.content-1 h1{
+    padding-top: 22%;
+    font-weight: 80;
+    font-size: 43px;
+    padding-left: 27%;
+    
+}
+.content-1 p
+{
+    padding-left: 27%;
+    padding-top: 20px;
+}
+.content-1 button
+{
+    margin-left: 27%;
+    width:45%;
+    margin-top: 70px;
+    padding: 15px 30px;
+    border-radius: 30px ;
+    border-width: 1px;
+    background-color:rgb(24, 42, 133) ;
+    color: white;
+}
+.main-img
+{
+    width: 550px;
+    height:500px;
+    padding-top: 20%;
+}
+
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: rgb(24, 42, 133);
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
+.second
+{
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-top: 1px solid rgb(206, 203, 203);
+}
+.img-2
+{
+    width: 550px;
+    height:500px;
+    padding-top: 150px;
+    padding-left: 200px;
+}
+.content-2 h1{
+    padding-top: 220px;
+    font-weight: 80;
+    font-size: 43px;
+    
+}
+.content-2 p
+{
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -1;
+}
+.content-2 a
+{
+    text-decoration: none;
+    font-size: 19px;
+
+}
+.content-2 a:hover span
+{
+    position: relative; 
+    right: -20px;
+    font-size: 18px;
+}
+.content-2 a:hover t
+{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+}
+.third
+{
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.content-3 h1{
+    padding-top: 15%;
+    font-weight: 80;
+    font-size: 43px;
+    padding-left: 27%;
+    
+}
+.content-3 p
+{
+    padding-left: 27%;
+    padding-top: 20px;
+    font-size: 20px;
+    letter-spacing: -0.1;
+    line-height: 1.5;
+}
+
+.content-3 h2{
+    padding-top: 35px;
+    font-weight: 80;
+    font-size: 14px;
+    padding-left: 27%;
+    padding-bottom: 20px;
+    line-height: 1.8;
+    color: #999;
+}
+.img-3
+{
+    width: 550px;
+    height:500px;
+    padding-top: 5%;
+    padding-left: 30px;
+}
+.content-3 a
+{
+    text-decoration: none;
+    font-size: 19px;
+    padding-left: 27%;
+
+}
+.content-3 a:hover span
+{
+    position: relative; 
+    right: -20px;
+    font-size: 18px;
+}
+
+.four
+{
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.img-4
+{
+    width: 550px;
+    height:370px;
+    padding-left: 200px;
+    padding-right: 50px;
+}
+.content-4 h1{
+    font-weight: 80;
+    font-size: 43px;
+    padding-top: 60px;
+}
+.content-4 p
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 19px;
+    letter-spacing: -1;
+    line-height: 1.5;
+}
+.content-4 a
+{
+    text-decoration: none;
+    font-size: 19px;
+
+}
+.content-4 a:hover span
+{
+    position: relative; 
+    right: -20px;
+    font-size: 18px;
+}
+.content-4 a:hover t
+{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+}
+
+.five
+{
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.content-5 h1{
+    padding-top: 10%;
+    font-weight: 80;
+    font-size: 43px;
+    padding-left: 27%;
+    
+}
+.content-5 p
+{
+    padding-left: 27%;
+    padding-top: 20px;
+    font-size: 20px;
+    letter-spacing: -0.1;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+.img-5
+{
+    width: 550px;
+    height:500px;
+    padding-left: 30px;
+}
+.content-5 a
+{
+    text-decoration: none;
+    font-size: 19px;
+    padding-left: 27%;
+
+}
+.content-5 a:hover span
+{
+    position: relative; 
+    right: -20px;
+    font-size: 18px;
+}
+
+.six
+{
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.img-6
+{
+    width: 550px;
+    height:370px;
+    padding-left: 200px;
+    padding-right: 50px;
+}
+.content-6 h1{
+    font-weight: 80;
+    font-size: 43px;
+    padding-top: 60px;
+}
+.content-6 p
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 19px;
+    letter-spacing: -1;
+    line-height: 1.5;
+}
+.content-6 a
+{
+    text-decoration: none;
+    font-size: 19px;
+
+}
+.content-6 a:hover span
+{
+    position: relative; 
+    right: -20px;
+    font-size: 18px;
+}
+.content-6 a:hover t
+{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+}
+.seven
+{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.seven h1{
+    width: 30%;
+    font-weight: 130;
+    font-size: 43px;
+    padding-left: 10%;
+    padding-top: 5%;
+    line-height: 1.3;
+}
+.imgs{
+    width:60%;
+}
+.imgs
+{
+    display : grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-right: 100px;
+    padding-bottom: 200px;
+}
+.eight
+{
+    height: 500px;
+    background-color: rgb(24, 42, 133);
+    text-align: center;
+}
+.eight h1
+{
+    color: white;
+    font-size: 43px;
+    font-weight: 80;
+    padding-top: 100px;
+}
+.btn
+{
+    margin-top: 30px;
+    height: 50px;
+    width: 350px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 15px;
+}
+.buttons
+{
+    justify-content: center;
+    display:flex;
+}
+.btn1
+{
+    margin-top: 40px;
+    height: 90px;
+    width: 70px;
+    border-radius: 25px;
+    background-color: rgb(30, 84, 219);
+    margin-right:2px;
+    color: white;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.footer
+{
+    height: 300px;
+}
+.information,.address{
+    width: 70%;
+    margin: 50px auto;
+    margin-bottom: 0px;
+    color:rgb(92, 91, 91);
+}
+.address{
+    margin-top : 40px;
+    margin-bottom:100px;
+}
+.contacts{
+    margin-top:30px;
+    width:70%;
+    margin: auto;
+    justify-content:space-between;
+}
+.contacts img{
+    width:30px;
+    height:20px;
+    padding-left: 295px;
+}
+.contacts a,.contacts2 a,.aside a{
+    text-decoration : none;
+    color:rgb(25, 25, 25);
+    font-weight: 700;
+    font-size:12px;
+    margin-right: 20px;
+}
+.contacts a:hover,.contacts2 a:hover,.aside a:hover{
+    text-decoration: underline;
+}
+.line{
+    margin:auto;
+    margin-top: 15px;;
+    margin-bottom: 10px;
+    width : 70%;
+}
+.below{
+    padding-bottom : 100px;
+    display:flex;
+    width:70%;
+    margin:auto;
+}
+.below a{
+    color:#5c5c5d;
+    font-size:12px;
+}
+
+
+
+
